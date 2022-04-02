@@ -8,12 +8,12 @@ const Header = () => {
                   <div className="row">
                         <div className="col-lg-12 main bg-light">
                               <div className="company-name">
-                                    <h3>COUSTOM SHOP</h3>
+                                    <h3>SUPER SHOP</h3>
                               </div>
                               <nav className='navber'>
                               <Link to='/ring'>Ring</Link>
-                              <Link to='/book'>Book</Link>
-                              <Link to='/tshart'>T-shart</Link>
+                              <Link to='/book'>Bag</Link>
+                              <Link to='/tshart'>Show</Link>
                               </nav>
                         </div>
                   </div>

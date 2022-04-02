@@ -1,13 +1,11 @@
 import React from 'react';
-import './RingCard.css'
-const RingCard = ({carts}) => {
+
+const TshartCard = ({carts}) => {
       let total = 0
       let shipping = 0
-      let quantity = 0
       
 
       for(const prodect of carts){
-            // quantity = quantity + prodect.quantity
             total = total + prodect.price
             shipping += prodect.shipping
       }
@@ -28,4 +26,4 @@ const RingCard = ({carts}) => {
       );
 };
 
-export default RingCard;
+export default TshartCard;
