@@ -1,0 +1,15 @@
+.card-calculation h5{
+      margin: 20px 0px;
+      
+}
+.orderBtn{
+      border: 0;
+      background-color: rgb(40, 220, 220);
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+}
+.order-now{
+      text-align: center;
+      margin-top: 20px;
+}
