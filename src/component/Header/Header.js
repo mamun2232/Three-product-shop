@@ -13,7 +13,8 @@ const Header = () => {
                               <nav className='navber'>
                               <Link to='/ring'>Ring</Link>
                               <Link to='/book'>Bag</Link>
-                              <Link to='/tshart'>Show</Link>
+                              <Link to='/tshart'>Shues</Link>
+                              <Link to='/login'>Login</Link>
                               </nav>
                         </div>
                   </div>
