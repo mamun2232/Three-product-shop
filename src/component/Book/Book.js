@@ -56,7 +56,7 @@ const Jwellary = () => {
       return (
             <div className='t-shart'>
                   <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 col-12">
                               <div className="show-container">
                                     {
                                           shows.map(show => <SingleShow  show={show} key={show.id} addToCard={addToCard}></SingleShow> )
@@ -66,7 +66,7 @@ const Jwellary = () => {
 
 
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-12">
                         <div className="cart-container">
                                          <h3 className='text-center mb-3'>Your Selected Card</h3>
                                          <hr />

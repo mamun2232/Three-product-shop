@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ShowCard = ({carts}) => {
       let total = 0
@@ -20,7 +21,7 @@ const ShowCard = ({carts}) => {
                   <h5>Tax: ${parseInt(tax)}</h5>
                   <h4>Grand Total: {parseInt(grandTotal)}</h4>
                  <div className="order-now">
-                 <button className='orderBtn'>Order Confrom</button>
+                 <Link to='/orderConfirm' className='orderBtn'>Order Confrom</Link>
                  </div>
             </div>
       );

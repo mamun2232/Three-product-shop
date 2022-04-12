@@ -63,7 +63,7 @@ const Ring = () => {
            
                   <div className="ring">
                        <div className="row">
-                             <div className="col-lg-8">
+                             <div className="col-lg-8 col-12">
                           <div className="ring-container bg-light">
                           {
                               rings.map(ring => <SingleRing 
@@ -74,7 +74,7 @@ const Ring = () => {
                         }
                           </div>
                              </div>
-                             <div className="col-lg-4">
+                             <div className="col-lg-4 col-12">
                                    {/* cart  */}
                                    <div className="cart-container bg-light">
                                          <h3 className='text-center mb-3'>Your Selected Card</h3>

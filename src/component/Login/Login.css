@@ -66,3 +66,6 @@ cursor: pointer;
       width: 100px;
      margin: 0px 20px;
 }
+span a {
+      text-decoration: none;
+}

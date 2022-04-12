@@ -27,7 +27,7 @@ const Tshart = () => {
       return (
             <div className='t-shart'>
                   <div className="row">
-                        <div className="col-lg-8">
+                        <div className="col-lg-8 col-12">
                               <div className="tshast-container">
                                     {
                                           tsharts.map(tshart => <SingleTshart  tshart={tshart} key={tshart.id} addToCard={addToCard}></SingleTshart> )
@@ -37,7 +37,7 @@ const Tshart = () => {
 
 
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-12">
                         <div className="cart-container">
                                          <h3 className='text-center mb-3'>Your Selected Card</h3>
                                          <hr />
