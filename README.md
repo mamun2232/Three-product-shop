@@ -7,7 +7,7 @@ its verry simple three product shop. our product is smart ring, school bag or sm
 
 ## Live site
 
-Please Visited My site -
+Please Visited My site - https://friendly-florentine-243c8e.netlify.app/
 
 
 ## Feedback
